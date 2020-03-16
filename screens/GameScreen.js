@@ -14,7 +14,7 @@ import { ScreenOrientation } from "expo";
 import NumberContainer from "../components/NumberContainer.js";
 import Card from "../components/Card.js";
 import DefaultStyles from "../constants/default-styles.js";
-import MainButton from "../components/MainButton.js";
+import MainButton from "../components/MainButton";
 import BodyText from "../components/BodyText.js";
 
 const generateRandomBetween = (min, max, exclude) => {

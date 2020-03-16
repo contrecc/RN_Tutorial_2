@@ -17,7 +17,7 @@ import NumberContainer from "../components/NumberContainer.js";
 import Colors from "../constants/colors.js";
 import BodyText from "../components/BodyText.js";
 import TitleText from "../components/TitleText.js";
-import MainButton from "../components/MainButton.js";
+import MainButton from "../components/MainButton";
 
 const StartGameScreen = props => {
   const [enteredValue, setEnteredValue] = useState("");
